@@ -1,0 +1,18 @@
+// console.log(process.version)
+// console.log(process.versions)
+// console.log(process.platform)
+// console.log(process.execPath)
+// console.log(process.config)
+// console.log(process.pid)
+// console.log(process.title)
+// console.log(process.arch)
+// console.log(process.memoryUsage())
+// console.log(process.cwd())
+// process.chdir()
+// console.log(process.env)
+// console.log(process.uptime())
+process.on('exit', () => {
+  console.log('node process exited')
+})
+
+process.exit(0)
