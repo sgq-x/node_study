@@ -4,7 +4,8 @@
   "description": "> node学习",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "koa2Server": "node koa_demo/scripts/server"
   },
   "repository": {
     "type": "git",
